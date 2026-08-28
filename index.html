@@ -5,70 +5,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>𝐀𝐏𝐊 𝐆𝐀𝐂𝐎𝐑</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.45)),
-    url('08f6a0738437b4561409abab58c18ceac4e1d14117086209ce378a92bd31a543.png') center center / cover no-repeat fixed;
-  min-height: 100vh;
-    }
-      
-    }
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.45)),
+      url("./zeus-background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+  }
 
-    .container {
-      max-width: 500px;
-      margin: auto;
-    }
+  .container {
+    max-width: 500px;
+    margin: auto;
+    padding: 30px 20px;
+    text-align: center;
+  }
 
-    .profile {
-      width: 90px;
-      height: 90px;
-      border-radius: 50%;
-      background: white;
-      margin: 0 auto 15px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #1e3a8a;
-      font-size: 35px;
-      font-weight: bold;
-    }
+  .profile {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: white;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1e3a8a;
+    font-size: 35px;
+    font-weight: bold;
+    overflow: hidden;
+  }
 
-    .logo {
-      width: 90px;
-      height: 90px;
-      border-radius: 50%;
-      object-fit: cover;
-    } 
-    
-    h1 {
-      margin-bottom: 8px;
-    }
+  .logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 
-    p {
-      margin-bottom: 25px;
-      opacity: 0.9;
-    }
+  h1 {
+    margin-bottom: 8px;
+  }
 
-    .link {
-      display: block;
-      text-decoration: none;
-      color: white;
-      background: rgba(255,255,255,0.15);
-      padding: 16px;
-      margin: 15px 0;
-      border-radius: 12px;
-      font-size: 17px;
-      font-weight: bold;
-      transition: 0.2s;
-    }
+  p {
+    margin-bottom: 25px;
+    opacity: 0.9;
+  }
 
-    .link:hover {
-      background: rgba(255,255,255,0.3);
-      transform: scale(1.02);
-    }
-  </style>
+  .link {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background: rgba(0, 0, 0, 0.45);
+    border: 1px solid rgba(255, 215, 100, 0.5);
+    padding: 16px;
+    margin: 15px 0;
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.2s;
+    backdrop-filter: blur(4px);
+  }
+
+  .link:hover {
+    background: rgba(255, 215, 100, 0.25);
+    transform: scale(1.02);
+  }
+</style>
 </head>
 
 <body>
